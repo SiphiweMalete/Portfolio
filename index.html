@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body style="text-decoration-color: rgb(202, 22, 94);">
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hello,<br/>I'm Siphiwe Malete.</h1>
+                <h2>Logistics and Supply Chain Management Graduate</h2>
+                <p>This is my Portfolio and it shows all my details.</p>
+                <a href="Siphiwe Malete - CV.pdf" class="btn">DOWNLOAD CV</a>
+            </div>
+            <div class="Hero-image">
+                <img src="Landing-Pages-Images/Logistics-Transport-PNG-Transparent-Image.png" ">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Landing-Pages-Images/grad.image.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">ABOUT ME</h1>
+                        <p>Siphiwe Malete is a Bachelor of Business Administration in Logicistics and <br>
+                        Supply Chain Management Graduate. She is an enthusiastic, self-motivated and responsible person.<br>
+                        I am always energetic willing to help in any way I can. Siphiwe is always eager to learn things I<br>
+                        do not know in order to gain more knowledge and skills. I have experience working as part of a team<br>
+                        and individually. I am an analytical individual, who is a practical thinker with strong planning skills.</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                         </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span></span><br>Designing Web'App interface</li>
+                                <li><span>Web Development</span><br>Designing Web'App interface</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020</span><br>Seasonal Sales Assistant</li>
+                                <li><span>2022</span><br>Seasonal Sales Assistant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="education">
+            <div class="container">
+                <h1 class="sub-title">EDUCATION</h1>
+                <div class="education-list">
+                    <div> 
+                        <h3>Grade 12(Matric)</h3>
+                        <p>I completed my Matric in 2017 at Dowerglen High School. My major subjects
+                        were Business Studies and Mathematics. </p>
+                        <a href="#">Learn more</a> 
+
+                    </div>
+                    <div> 
+                        <h3>Higher Certificate</h3>
+                        <p>The Higher Certificate is a 1 year full-time qualififcation which I studied for at Rosebank College in 2019.The
+                        certificate is an entry-level certificate in the Logistics or Supply Chain industry.</p>
+                        <a href="#">Learn more</a>    
+                    </div>
+                    <div>
+                        <h3>Bachelor's Degree</h3>
+                        <p>I studied a Bachelor of Business Administration in Logistics and Supply Chain Management
+                        Degree which is a 3-year full-time qualification.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="content">
+                    <div class="contact-left">
+                        <h1 class="sub-title">CONTACT ME</h1>
+                        <p>siphiwemalete25@gmail.com</p>
+                        <p>0672131274</p>
+                        <div class="social-icons">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+</html>
