@@ -9,6 +9,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background-color: whitesmoke;
     background-size: cover;
@@ -122,7 +123,11 @@ h2{
 }
 #about{
     padding: 30px 0;
+    height: 100vh;
     /*color: rgb(202, 22, 94);*/
+}
+.container {
+    padding: 15% 0 0 15%;
 }
 .row{
     display: flex;
@@ -145,11 +150,15 @@ h2{
     padding-bottom: 5%;
     font-size: 20px;
 }
+.about-list{
+    display: flex;
+    justify-content: space-evenly;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
   /*  color: antiquewhite;*/
-    text-align: left;
+    text-align: center;
 }
 .tab-titles{
     display: flex;
@@ -180,6 +189,7 @@ h2{
     padding: 50px 0;
     padding-left: 100px;
     padding-right: 20px;
+    height: 100vh;
 }
 .education-list{
     display: grid;
@@ -216,8 +226,15 @@ p{
     background-color: purple;transform: translateY(-10px);
 }
 #contact{
+    height: 100vh;
     padding: 40px;
     padding-top: 50px;
+}
+.contact-content {
+    display: flex;
+    padding: 5% 0 0 5%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .contact-left{
     flex-basis: 35%;
@@ -251,4 +268,63 @@ form .btn2{
 }
 .btn2 div:hover{
     background-color: purple;transform: translateY(-10px)
+}
+.bxl-gmail{
+    font-size: 70px;
+    color:red;
+}
+.bx-phone-call{
+    font-size: 60px;
+    color: black;
+}
+.icons{
+    display: block;
+    align-items: center;
+}
+.icon-text {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(241, 21, 142);
+}
+.fa-whatsapp{
+    color: rgb(115, 218, 115);
+} 
+#location {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#weather {
+    font-size: 15px;
+}
+
+@media (max-width: 1024px) {
+    header {
+        width: 90%;
+        display: flex;
+        /* padding-left: 0; */
+        justify-content: space-between;
+    }
+    .hero {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+
+    }
+    .h1{
+        font-size: 30px;
+    }
+    header nav ul {
+        margin-left: 50px;
+    }
+    header nav ul li {
+        margin: 0;
+    }
 }
