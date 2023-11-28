@@ -9,21 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
     <script src="port.js"></script>
     <title>Portfolio</title>
 </head>
 <body style="text-decoration-color: rgb(202, 22, 94);">
     <header class="header">
-        <a href="#" class="logo">Portfolio.</a>
+        <a href="#" class="logo">MyPortfolio.</a>
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#education">EDUCATION</a></li>
                 <li><a href="#contact">CONTACT ME</a></li>
-                
+                <li><a href="#weather">WEATHER APP</a></li>
             </ul>
-            <i class="fa-solid fa-bars fa-beat-fade"></i>
         </nav>
     </header>
     <section class="home">
@@ -54,7 +54,7 @@
                         do not know in order to gain more knowledge and skills. I have experience working as part of a team <br>
                         and individually. I am an analytical individual, who is a practical thinker with strong planning skills.</p>
                            <div class="about-list">
-                            <div>
+                            <div class="about-list-one">
                                 <h2>Skills</h2>
                                 <p>Logistics Management <br>
                                 Supply Chain Management <br>
@@ -63,7 +63,7 @@
                                 CSS <br>
                                 Project Management</p>
                             </div>
-                            <div>
+                            <div class="about-list-two">
                                 <h2>Experience</h2>
                                 <p>Seasonal Sales Assistant- Studio 88 <br>
                                     2020/11 - 2021/01 <br>
@@ -79,7 +79,7 @@
 
         </div>
         <div id="education">
-            <div class="container">
+            <div class="edu-container">
                 <h1 class="sub-title">EDUCATION</h1>
                 <div class="education-list">
                     <div> 
@@ -105,19 +105,17 @@
             <div class="contact-content">
                 <div class="contact-left">
                     <p class="icons">
-                        <span class="icon-text"><strong>Email Me:</strong></span> 
+                        <span class="icon-text">Email Me:</span> 
                         <a href="https://www.gmail.com/mail/help/intl/en/promos/blue/"><i class='bx bxl-gmail bx-tada' ></i></a>
                     </p>
                     <p class="icons">
-                        <span class="icon-text"><strong>067 213 1274:</strong></span>
+                        <span class="icon-text">067 213 1274:</span>
                         <a href=""><i class='bx bx-phone-call bx-tada' ></i></a>
                     </p>
-                    <p class="social-icons">
-                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008862708256" class="fa fa-facebook"></a>
                     <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
-                    <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a>
+                    <a href="https://www.linkedin.com/in/siphiwe-malete-964139257/" class="fa fa-linkedin"></a>
                     <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
-                    </p>
                 </div>
                 <div class="contact-right">
                     <form>
@@ -127,15 +125,17 @@
                         <button type="submit" class="btn btn2">SUBMIT</button>
                     </form>
                 </div>
+            </div>
+
+        </div>
+        <div class="weather" id="weather">
+            <h1 class="subtitle">WEATHER FORECAST</h1>
                 <div class="weather">
-                    <div class="container">
-                        <h1>Weather Forecast</h1>
+                    <div class="weather-container">
                         <div id="location"></div>
                         <div id="weather"></div>
                     </div>
                 </div>
-            </div>
-
         </div>
         <script src="port.js"></script>
 </body>
