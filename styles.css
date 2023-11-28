@@ -68,7 +68,7 @@ header nav ul {
     /* justify-content: center; */
     justify-content: flex-start;
 }
-header nav ul li{
+header nav ul li {
     /* margin: 20px 50px; */
 }
 header nav ul li a {
@@ -446,5 +446,11 @@ form .btn2{
     header {
         font-size: 10px;
         /* padding-right: 5%; */
+    }
+}
+@media (max-width: 425px) {
+    .sub-title {
+        padding-top: 20px;
+        position: absolute;
     }
 }
